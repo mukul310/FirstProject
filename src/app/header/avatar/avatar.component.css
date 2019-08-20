@@ -1,0 +1,16 @@
+.avatar{
+  margin:auto;
+  border: 5px solid darkgreen;
+  border-radius: 10px;
+}
+
+img {
+  width:100px;
+  height:100px;
+}
+
+.name{
+  color:white;
+  font-size: large;
+  font-style: italic;
+}

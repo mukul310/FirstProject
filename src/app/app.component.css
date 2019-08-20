@@ -1,0 +1,9 @@
+.container-fluid{
+  background-size: cover;
+  background-image: url('src/assets/img/6.jpg');
+  background-position: 50% 50%;
+}
+
+.text{
+  color:white;
+}
