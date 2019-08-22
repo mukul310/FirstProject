@@ -1,5 +1,10 @@
 <div class="tiles">
   <div class="tile">
-    {{tileNumber}}
+    <div class="number">
+      {{tileNumber}}
+    </div>
+    <div id="marker">
+      <img [src]="src" [alt]="alt" [hidden]="isHidden">
+    </div>
   </div>
 </div>

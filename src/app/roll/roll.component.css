@@ -1,0 +1,29 @@
+.row{
+  height: 300px;
+}
+.roll-container{
+  display: table;
+}
+
+.dice{
+  height: 50vh;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.content{
+  display: table;
+}
+
+ img {
+  display: table-cell;
+  vertical-align: middle;
+  height: 150px;
+  width: 150px;
+}
+
+.content button{
+  display: table-cell;
+  vertical-align: middle;
+}

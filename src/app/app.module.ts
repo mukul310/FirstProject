@@ -7,6 +7,7 @@ import { AvatarComponent } from './header/avatar/avatar.component';
 import { BoardComponent } from './board/board.component';
 import { TilesComponent } from './board/tiles/tiles.component';
 import { TileComponent } from './board/tiles/tile/tile.component';
+import { RollComponent } from './roll/roll.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TileComponent } from './board/tiles/tile/tile.component';
     AvatarComponent,
     BoardComponent,
     TilesComponent,
-    TileComponent
+    TileComponent,
+    RollComponent
   ],
   imports: [
     BrowserModule,

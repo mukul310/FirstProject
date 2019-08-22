@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../user.model';
+import { PlayerService } from './avatar/player.service';
 
 @Component({
   selector: 'app-header',
@@ -10,11 +11,10 @@ export class HeaderComponent implements OnInit {
 
   users: User[];
 
-  constructor() { }
+  constructor(public playerService: PlayerService) { }
 
   ngOnInit() {
-    this.users = [{name: 'Mukul', avatar: 'assets/images/first.jpg'}, {name: 'Nikhil', avatar: 'assets/images/second.jpg'},
-    {name: 'Jagrati', avatar: 'assets/images/third.jpg'},{name: 'Matt', avatar: 'assets/images/fourth.jpg'}];
+    this.users = this.playerService.getPlayers();
   }
 
 }

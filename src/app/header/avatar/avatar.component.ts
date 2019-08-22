@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { User } from 'src/app/user.model';
+import { PlayerService } from './player.service';
 
 @Component({
   selector: 'app-avatar',
@@ -9,11 +10,11 @@ import { User } from 'src/app/user.model';
 export class AvatarComponent implements OnInit {
 
   @Input() player: User;
-  isActive:string = "Your turn";
-  constructor() { }
+  isActive:string;
+  constructor( public playerService: PlayerService) { }
 
   ngOnInit() {
-    console.log(this.player)
+
   }
 
 }

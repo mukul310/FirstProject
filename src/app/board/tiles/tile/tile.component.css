@@ -1,5 +1,5 @@
 .tiles{
-  display:table;
+
   vertical-align: middle;
   width:60px;
   height:60px;
@@ -10,6 +10,15 @@
 }
 
 .tile{
-  display: table-cell;
-  vertical-align: middle;
+
+}
+
+.marker{
+
+}
+
+img{
+  background-blend-mode: lighten;
+  height:20px;
+  width:20px;
 }
